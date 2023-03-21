@@ -34,8 +34,4 @@ router.post("/", (request, response) => {
   const { id, channel, title, comment } = req.body;
 });
 
-////Manipulate the data to only bring back certain properties (ID, image, title, channel). Try to make it so that when endpoint is hit, only part of the JSON file is shown (properties you want to see).
-
-///
-
 module.exports = router;

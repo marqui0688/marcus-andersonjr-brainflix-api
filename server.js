@@ -9,6 +9,4 @@ app.use(cors());
 
 app.use("/videos", videoRoute);
 
-app.listen(port, () => {
-  console.log("server started");
-});
+app.listen(port, () => {});
